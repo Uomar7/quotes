@@ -1,0 +1,13 @@
+.comment{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+.comment #dislike{
+    padding-right: 10px;
+}
+.details{
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: center;
+}
