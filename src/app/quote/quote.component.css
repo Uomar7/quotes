@@ -44,7 +44,11 @@ h1{
     width: 60vw;
     margin: 0 auto;
     margin-top: 20px;
+    overflow-x: hidden;
+    transform: translateX(160em);
+    animation: slide 3s .5s forwards;
 }
+
 @keyframes slide{
     from{transform: translateX()}
     to{transform:translateX(0)}
