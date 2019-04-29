@@ -33,18 +33,54 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 1. As a user, I want to see form to fill my name.
 2. As a user, I want to write and post a quote.
 3. as a user, I should be able to see when the quote was posted.
-4. As a user I should be able to vote or downvote a quote.
+4. As a user, I should be able to vote or downvote a quote.
 
 ## Behaviour Driven Development
 
 | Behavior                | Input                         | output                                |
 |-------------------------|:-----------------------------:|--------------------------------------:|
-| open the app            | scroll  down page             | Template quotes displayed             |
-| GO to make quote column | Type in the quote and name    | New quote appended to quotes          |
-| click drop down         | A pallet is opened            | Details about the quote displayed     |
-| Click up vote thumb     |  number of likes increases    |Quote with highest likes highlighted   |
-| Click down vote thumb   |  Number of dislikes increases |Quote with highest dislikes eliminated |
+| Load into the website,  | Input your name.              | Name displayed below                  |
+| Scroll down and fill yo-| Input your quote and author.  | Inputted quote displayed              |
+| ur form with quotes.    | Inout date of posting         | post duration displayed               |
+| submit quote.           | Click the sumbit button.      | All details dispalyed                 |
+| click like to upvote    | Onclick dislike button        | Increases number of likes             |
+| click dislike to downvo-| Onclick like button           | Increases number of dislikes          |
+| te.                     |
+
+##Technologies used
+
+1. Typescript
+2. Angular CLI
+3. CSS
+4. HTML
+5. Bootstrap v3.3.7
+
+##known Bugs
+
+No known bugs.
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Copyright (c) {2019} **Umar Ali Ngare**
