@@ -1,0 +1,10 @@
+<div class="details">
+    <p>{{quote.author}}</p>
+    <p id="p1">Posted by {{quote.name}}</p>
+    <p id="p2">Quote posted {{quote.postDate|dateCount}} days ago.</p>
+
+    <div class="comment">
+        <app-like-box></app-like-box>
+    </div>
+    <button class="btn btn-danger" (click)='quoteDelete(true)'> Delete </button>
+</div>
