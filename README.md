@@ -2,15 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
-##Description
+## Description
 
 This website is to eable the user to write,post quotes then view the the quotes and upvote or downvote the quotes.
 
-##Author
+## Author
 
 Umar Ali Ngare
 
-##Installation
+## Installation
 
 clone the app from [github](https://github.com/Uomar7/quotes.git)
 
@@ -47,7 +47,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 | click dislike to downvo-| Onclick like button           | Increases number of dislikes          |
 | te.                     |
 
-##Technologies used
+## Technologies used
 
 1. Typescript
 2. Angular CLI
@@ -55,7 +55,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 4. HTML
 5. Bootstrap v3.3.7
 
-##known Bugs
+## known Bugs
 
 No known bugs.
 
