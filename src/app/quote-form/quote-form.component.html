@@ -1,0 +1,58 @@
+<div>
+  <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+
+    <div id="nom">
+
+      <div class="row">
+        <div class="col-md-4">
+          <label for="name">Name:</label>
+        </div>
+
+        <div class="col-md-6 col-md-offset-2">
+          <input type="text" class="form-control" minlength='2' [(ngModel)]='newQuote.name' name='name' #name='ngModel' placeholder="Name" id="name" required>
+        </div>
+      </div> 
+
+    </div><br>
+
+    <div id="textarea">
+
+      <div class="row" id="row2">
+        <div class="col-md-4">
+          <label for="quote">Write your Quote:</label>
+        </div>
+
+        <div class="col-md-6 col-md-offset-2">
+          <textarea id="quote" minlength="4" rows="3" class="form-control" [(ngModel)]='newQuote.description' name='description' #description='ngModel' placeholder="Write your quote" required></textarea>
+        </div>
+      </div>
+
+    </div><br>
+
+    <div id="author">
+      <div class="row">
+        <div class="col-md-4">
+          <label for="Author">Author's name:</label>
+        </div>
+
+        <div class="col-md-6 col-md-offset-2">
+          <input type ="text" minlength="2" id="Author" class="form-control" [(ngModel)]='newQuote.author' name='author' #author='ngModel' placeholder="Author" required>
+        </div>
+      </div>
+    </div><br>
+
+    <div class="row">
+      <div class="col-md-4">
+        <label for="date">Post Date:</label>
+      </div>
+
+      <div class="col-md-6 col-md-offset-2">
+        <input type="date" class="form-control" id="date" [(ngModel)]='newQuote.postDate' name='postDate' #postDate='ngModel' required>
+      </div>
+    </div><br>
+
+    <input type="submit" class="btn btn-default" id="sub">
+    
+    
+  </form>
+</div>
